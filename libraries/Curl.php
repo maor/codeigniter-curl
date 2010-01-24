@@ -277,9 +277,9 @@ class Curl {
     public function debug()
     {
         echo "=============================================<br/>\n";
-        echo "<h2>CURL Test</h2>\n";
+        echo "<h2>CURL Test Drive</h2>\n";
         echo "=============================================<br/>\n";
-        echo "<h3>Responce</h3>\n";
+        echo "<h3>Response</h3>\n";
         echo "<code>".nl2br(htmlentities($this->responce))."</code><br/>\n\n";
     
         if($this->error_string)
